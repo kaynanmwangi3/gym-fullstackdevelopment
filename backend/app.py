@@ -4,6 +4,7 @@ from models import db, Trainer
 from flask_restful import Resource,Api
 from werkzeug.exceptions import HTTPException
 
+
 # add the sqlalchemy database configurtion to our app
 # initialize our sqlalchemy instance with our app
 # initialize our migrate instance with both our app and our DB
